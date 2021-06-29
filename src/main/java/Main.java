@@ -14,7 +14,7 @@ public class Main {
             .withCloudSecureConnectBundle(Paths.get("/root/java-driver-demo/secure-connect-eqh-poc.zip"))
             //.withAuthCredentials("ClientId","LongSecret")
             .withAuthCredentials("ClientId","LongSecret")
-            .withKeyspace("stock")
+            .withKeyspace("system")
             .build()) {
 
                 // For the sake of example, run a simple query and print the results

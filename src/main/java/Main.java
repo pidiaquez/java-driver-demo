@@ -10,7 +10,7 @@ public class Main {
   public static void main(String[] args) {
     try (CqlSession session = CqlSession.builder()
             // make sure you change the path to the secure connect bundle below
-            //.withCloudSecureConnectBundle(Paths.get("/root/java-driver-demo/secure-connect-stocku.zip"))
+            //.withCloudSecureConnectBundle(Paths.get("d:\\dse\\tickets\\Astra\\secure-connect-stocku.zip"))
             .withCloudSecureConnectBundle(Paths.get("/root/java-driver-demo/secure-connect-eqh-poc.zip"))
             //.withAuthCredentials("ClientId","LongSecret")
             .withAuthCredentials("ClientId","LongSecret")
